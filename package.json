@@ -1,0 +1,14 @@
+{
+  "name": "pixel-perfect-design-implementor",
+  "version": "0.1.0",
+  "description": "An agent skill + scripts for implementing any design in a web app pixel-identically, and proving it with numeric diffs and heatmaps.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "demo": "node examples/make-demo.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "sharp": "^0.33.5"
+  }
+}
